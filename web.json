@@ -1,0 +1,8 @@
+{
+  "postgresql": {
+    "password": {
+      "postgres": "iloverandompasswordsbutthiswilldo"
+    }
+  },
+  "run_list": [ "recipe[apt]", "recipe[iwish]", "recipe[postgresql::server]", "recipe[git::default]" ]
+}
